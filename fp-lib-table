@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TO_SOT_Packages_SMD)(type KiCad)(uri "$(KIPRJMOD)/TO_SOT_Packages_SMD.pretty-master")(options "")(descr ""))
+  (lib (name SOT223)(type Legacy)(uri "$(KIPRJMOD)/SOT223.mod")(options "")(descr ""))
+)
