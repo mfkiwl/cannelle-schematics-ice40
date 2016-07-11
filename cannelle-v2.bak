@@ -1005,7 +1005,7 @@ FPGA_SCK
 Text Label 2500 6950 0    60   ~ 0
 AVR_SS
 Text Label 2500 7050 0    60   ~ 0
-FPAG_SS
+FPGA_SS
 Text Label 5750 6500 2    60   ~ 0
 FLASH_MOSI
 Text Label 5750 6750 2    60   ~ 0
