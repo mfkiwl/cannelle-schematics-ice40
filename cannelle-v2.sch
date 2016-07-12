@@ -415,7 +415,7 @@ $EndComp
 Wire Wire Line
 	8000 1100 7350 1100
 Text Label 7350 1100 0    60   ~ 0
-CS_FLASH
+SS_FLASH
 Wire Wire Line
 	8000 1150 7350 1150
 Text Label 7350 1150 0    60   ~ 0
@@ -473,9 +473,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 1250 9050 1250
 Text Label 9050 1200 2    60   ~ 0
-FLASH_SCK
+SCK
 Text Label 9050 1250 2    60   ~ 0
-FLASH_MOSI
+MOSI
 Wire Wire Line
 	5150 3050 5700 3050
 Text Label 5700 3050 2    60   ~ 0
@@ -483,15 +483,15 @@ MISO
 Wire Wire Line
 	5150 2950 5700 2950
 Text Label 5700 2950 2    60   ~ 0
-AVR_MOSI
+MOSI
 Wire Wire Line
 	5150 2850 5700 2850
 Text Label 5700 2850 2    60   ~ 0
-AVR_SCK
+SCK
 Wire Wire Line
 	5150 2750 5700 2750
 Text Label 5700 2750 2    60   ~ 0
-AVR_SS
+SS
 Wire Wire Line
 	5150 4150 5700 4150
 Wire Wire Line
@@ -800,9 +800,9 @@ Wire Wire Line
 Text Label 7400 4800 0    60   ~ 0
 FPGA_SS
 Text Label 7400 4900 0    60   ~ 0
-FPGA_SCK
+SCK
 Text Label 7400 5000 0    60   ~ 0
-FPGA_MOSI
+MOSI
 Text Label 7400 5100 0    60   ~ 0
 MISO
 Text Label 7400 5200 0    60   ~ 0
@@ -975,88 +975,9 @@ F 3 "" H 9650 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 6450 2500 6450
-Wire Wire Line
-	3250 6550 2500 6550
-Wire Wire Line
-	3250 6700 2500 6700
-Wire Wire Line
-	3250 6800 2500 6800
-Wire Wire Line
-	3250 6950 2500 6950
-Wire Wire Line
-	3250 7050 2500 7050
-Wire Wire Line
-	3250 7450 2500 7450
-Wire Wire Line
-	4750 6500 5750 6500
-Wire Wire Line
-	4750 6750 5750 6750
-Wire Wire Line
-	4750 7000 5750 7000
-Text Label 2500 6450 0    60   ~ 0
-AVR_MOSI
-Text Label 2500 6550 0    60   ~ 0
-FPGA_MOSI
-Text Label 2500 6700 0    60   ~ 0
-AVR_SCK
-Text Label 2500 6800 0    60   ~ 0
-FPGA_SCK
-Text Label 2500 6950 0    60   ~ 0
-AVR_SS
-Text Label 2500 7050 0    60   ~ 0
-FPGA_SS
-Text Label 5750 6500 2    60   ~ 0
-FLASH_MOSI
-Text Label 5750 6750 2    60   ~ 0
-FLASH_SCK
-Text Label 5750 7000 2    60   ~ 0
-FLASH_SS
-$Comp
-L R R5
-U 1 1 57814526
-P 3000 7550
-F 0 "R5" V 3080 7550 50  0000 C CNN
-F 1 "10k" V 3000 7550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2930 7550 50  0001 C CNN
-F 3 "" H 3000 7550 50  0000 C CNN
-	1    3000 7550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3250 7550 3150 7550
-Wire Wire Line
-	2850 7550 2700 7550
-Wire Wire Line
-	2700 7550 2700 7600
-$Comp
-L GND #PWR030
-U 1 1 578147D3
-P 2700 7600
-F 0 "#PWR030" H 2700 7350 50  0001 C CNN
-F 1 "GND" H 2700 7450 50  0000 C CNN
-F 2 "" H 2700 7600 50  0000 C CNN
-F 3 "" H 2700 7600 50  0000 C CNN
-	1    2700 7600
-	1    0    0    -1  
-$EndComp
-Text Label 2500 7450 0    60   ~ 0
-SPI_SELECT
-Wire Wire Line
 	5150 3350 5700 3350
 Text Label 5700 3350 2    60   ~ 0
 SPI_SELECT
-$Comp
-L 74LS157 U1
-U 1 1 577D8CAF
-P 4000 7000
-F 0 "U1" H 4050 7150 50  0000 C CNN
-F 1 "74LS157" H 4050 6850 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-L" H 4000 7000 50  0001 C CNN
-F 3 "" H 4000 7000 50  0000 C CNN
-	1    4000 7000
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_02X04 P2
 U 1 1 578153F4
@@ -1261,4 +1182,12 @@ Wire Wire Line
 	10400 4550 10400 4500
 Text Label 9700 4550 0    60   ~ 0
 FPGA_SS
+Wire Wire Line
+	5150 3750 5700 3750
+Wire Wire Line
+	5150 3650 5700 3650
+Text Label 5700 3650 2    60   ~ 0
+FPGA_SS
+Text Label 5700 3750 2    60   ~ 0
+SS_FLASH
 $EndSCHEMATC
