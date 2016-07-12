@@ -348,12 +348,12 @@ Wire Wire Line
 Wire Wire Line
 	7050 3850 7450 3850
 Wire Wire Line
-	9700 1900 10350 1900
+	12350 1150 13000 1150
 Wire Wire Line
-	9700 2000 10350 2000
-Text Label 10350 1900 2    60   ~ 0
+	12350 1250 13000 1250
+Text Label 13000 1150 2    60   ~ 0
 GPIO_0
-Text Label 10350 2000 2    60   ~ 0
+Text Label 13000 1250 2    60   ~ 0
 GPIO_1
 Wire Wire Line
 	9000 5450 9200 5450
@@ -396,24 +396,24 @@ SCK
 Text Label 9000 5450 0    60   ~ 0
 SS
 Wire Wire Line
-	9700 2100 10350 2100
+	12350 1350 13000 1350
 Wire Wire Line
-	9700 2200 10350 2200
+	12350 1450 13000 1450
 Wire Wire Line
-	9700 2300 10350 2300
+	12350 1550 13000 1550
 Wire Wire Line
-	9700 2400 10350 2400
-Text Label 10350 2100 2    60   ~ 0
+	12350 1650 13000 1650
+Text Label 13000 1350 2    60   ~ 0
 SDO
-Text Label 10350 2200 2    60   ~ 0
+Text Label 13000 1450 2    60   ~ 0
 SDI
-Text Label 10350 2300 2    60   ~ 0
+Text Label 13000 1550 2    60   ~ 0
 SCK
-Text Label 10350 2400 2    60   ~ 0
+Text Label 13000 1650 2    60   ~ 0
 SS
 Wire Wire Line
-	9700 2500 10350 2500
-Text Label 10350 2500 2    60   ~ 0
+	12350 1750 13000 1750
+Text Label 13000 1750 2    60   ~ 0
 SYSCLK
 Wire Wire Line
 	7900 4350 7900 4950
@@ -421,8 +421,8 @@ Connection ~ 7900 4350
 Text Label 7900 4950 1    60   ~ 0
 DONE
 Wire Wire Line
-	9700 2600 10350 2600
-Text Label 10350 2600 2    60   ~ 0
+	12350 1850 13000 1850
+Text Label 13000 1850 2    60   ~ 0
 DONE
 Wire Wire Line
 	8050 4050 8050 3950
@@ -432,8 +432,8 @@ Connection ~ 8050 4050
 Text Label 9700 3950 2    60   ~ 0
 ICE40_RESET
 Wire Wire Line
-	9700 2700 10350 2700
-Text Label 10350 2700 2    60   ~ 0
+	12350 1950 13000 1950
+Text Label 13000 1950 2    60   ~ 0
 ICE40_RESET
 Wire Wire Line
 	9700 3600 9850 3600
@@ -547,36 +547,36 @@ F 3 "" H 4600 5950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 2800 10300 2800
+	12350 2050 12950 2050
 Wire Wire Line
-	9700 2900 10300 2900
+	12350 2150 12950 2150
 Wire Wire Line
-	9700 3000 10300 3000
+	12350 2250 12950 2250
 Wire Wire Line
-	9700 3100 10300 3100
+	12350 2350 12950 2350
 Wire Wire Line
-	9700 3200 10300 3200
+	12350 2450 12950 2450
 Wire Wire Line
-	9700 3300 10300 3300
+	12350 2550 12950 2550
 Wire Wire Line
-	9700 3400 10300 3400
+	12350 2650 12950 2650
 Wire Wire Line
-	9700 3500 10300 3500
-Text HLabel 10300 2800 2    60   Output ~ 0
+	12350 2750 12950 2750
+Text HLabel 12950 2050 2    60   Output ~ 0
 ADC0
-Text HLabel 10300 2900 2    60   Output ~ 0
+Text HLabel 12950 2150 2    60   Output ~ 0
 ADC1
-Text HLabel 10300 3000 2    60   Output ~ 0
+Text HLabel 12950 2250 2    60   Output ~ 0
 ADC2
-Text HLabel 10300 3100 2    60   Output ~ 0
+Text HLabel 12950 2350 2    60   Output ~ 0
 ADC3
-Text HLabel 10300 3200 2    60   Output ~ 0
+Text HLabel 12950 2450 2    60   Output ~ 0
 ADC4
-Text HLabel 10300 3300 2    60   Output ~ 0
+Text HLabel 12950 2550 2    60   Output ~ 0
 ADC5
-Text HLabel 10300 3400 2    60   Output ~ 0
+Text HLabel 12950 2650 2    60   Output ~ 0
 ADC6
-Text HLabel 10300 3500 2    60   Output ~ 0
+Text HLabel 12950 2750 2    60   Output ~ 0
 ADC7
 $Comp
 L +3V3 #PWR054
@@ -1251,10 +1251,10 @@ Wire Wire Line
 	9700 1700 10450 1700
 Text Label 10450 1700 2    60   ~ 0
 P4_06
-Text Label 10450 1800 2    60   ~ 0
+Text Label 13100 1050 2    60   ~ 0
 P4_08
 Wire Wire Line
-	9700 1800 10450 1800
+	12350 1050 13100 1050
 Wire Wire Line
 	2350 2250 1700 2250
 Text Label 1700 2250 0    60   ~ 0
@@ -1573,4 +1573,82 @@ Wire Wire Line
 	7050 4150 7350 4150
 Wire Wire Line
 	7050 4200 7700 4200
+Text Label 8200 2400 2    60   ~ 0
+P4_43
+Wire Wire Line
+	9700 1800 10450 1800
+Text Label 10450 1800 2    60   ~ 0
+P3_08
+Wire Wire Line
+	9700 1900 10450 1900
+Text Label 10450 1900 2    60   ~ 0
+P3_10
+Wire Wire Line
+	9700 2000 10450 2000
+Text Label 10450 2000 2    60   ~ 0
+P3_12
+Wire Wire Line
+	9700 2100 10450 2100
+Text Label 10450 2100 2    60   ~ 0
+P3_14
+Wire Wire Line
+	9700 2300 10450 2300
+Text Label 10450 2300 2    60   ~ 0
+P3_18
+Wire Wire Line
+	9700 2400 10450 2400
+Text Label 10450 2400 2    60   ~ 0
+P3_20
+Wire Wire Line
+	9700 2500 10450 2500
+Text Label 10450 2500 2    60   ~ 0
+P3_22
+Wire Wire Line
+	9700 2600 10450 2600
+Text Label 10450 2600 2    60   ~ 0
+P3_24
+Wire Wire Line
+	9700 2700 10450 2700
+Text Label 10450 2700 2    60   ~ 0
+P3_26
+Wire Wire Line
+	9700 2800 10450 2800
+Text Label 10450 2800 2    60   ~ 0
+P3_28
+Wire Wire Line
+	9700 2900 10450 2900
+Text Label 10450 2900 2    60   ~ 0
+P3_30
+Wire Wire Line
+	9700 3100 10450 3100
+Text Label 10450 3100 2    60   ~ 0
+P3_34
+Wire Wire Line
+	9700 3200 10450 3200
+Text Label 10450 3200 2    60   ~ 0
+P3_36
+Wire Wire Line
+	9700 3300 10450 3300
+Text Label 10450 3300 2    60   ~ 0
+P3_38
+Wire Wire Line
+	9700 3400 10450 3400
+Text Label 10450 3400 2    60   ~ 0
+P3_40
+Wire Wire Line
+	9700 3500 10450 3500
+Text Label 10450 3500 2    60   ~ 0
+P3_42
+Wire Wire Line
+	9700 3600 10450 3600
+Text Label 10450 3600 2    60   ~ 0
+P3_44
+Wire Wire Line
+	9700 2200 10450 2200
+Text Label 10450 2200 2    60   ~ 0
+P3_16
+Wire Wire Line
+	9700 3000 10450 3000
+Text Label 10450 3000 2    60   ~ 0
+P3_32
 $EndSCHEMATC
