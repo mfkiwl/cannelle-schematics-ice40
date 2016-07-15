@@ -124,8 +124,6 @@ Text Label 4650 1100 0    60   ~ 0
 MISO
 Text Label 4650 1200 0    60   ~ 0
 SCK
-Text Label 4650 1300 0    60   ~ 0
-RST_AVR
 Text Label 6050 1200 2    60   ~ 0
 MOSI
 $Comp
@@ -789,10 +787,6 @@ Wire Wire Line
 	7850 5800 7400 5800
 Wire Wire Line
 	7850 5900 7400 5900
-Wire Wire Line
-	7850 6000 7400 6000
-Wire Wire Line
-	7850 6100 7400 6100
 Text Label 7400 4800 0    60   ~ 0
 FPGA_SS
 Text Label 7400 4900 0    60   ~ 0
@@ -817,10 +811,6 @@ Text Label 7400 5800 0    60   ~ 0
 ADC4
 Text Label 7400 5900 0    60   ~ 0
 ADC5
-Text Label 7400 6000 0    60   ~ 0
-ADC6
-Text Label 7400 6100 0    60   ~ 0
-ADC7
 Text Label 5700 5150 2    60   ~ 0
 ADC0
 Text Label 5700 5250 2    60   ~ 0
@@ -1186,4 +1176,6 @@ Text Label 5700 3650 2    60   ~ 0
 FPGA_SS
 Text Label 5700 3750 2    60   ~ 0
 SS_FLASH
+Text Notes 3750 1250 0    60   ~ 0
+Add reset pin here\n
 $EndSCHEMATC

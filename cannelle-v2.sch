@@ -124,8 +124,6 @@ Text Label 4650 1100 0    60   ~ 0
 MISO
 Text Label 4650 1200 0    60   ~ 0
 SCK
-Text Label 4650 1300 0    60   ~ 0
-RST_AVR
 Text Label 6050 1200 2    60   ~ 0
 MOSI
 $Comp
@@ -1178,4 +1176,6 @@ Text Label 5700 3650 2    60   ~ 0
 FPGA_SS
 Text Label 5700 3750 2    60   ~ 0
 SS_FLASH
+Text Notes 3750 1250 0    60   ~ 0
+Add reset pin here\n
 $EndSCHEMATC

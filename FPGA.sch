@@ -1629,8 +1629,6 @@ Text Label 3850 3900 0    60   ~ 0
 P4_23
 Text Label 3850 4000 0    60   ~ 0
 P4_21
-Text Label 3850 4100 0    60   ~ 0
-P4_19
 Text Label 3850 4200 0    60   ~ 0
 P4_17
 Text Label 3850 4300 0    60   ~ 0
@@ -1739,8 +1737,6 @@ Text Label 5250 6250 0    60   ~ 0
 P3_07
 Text Label 5250 6450 0    60   ~ 0
 P4_01
-Text Label 5250 6550 0    60   ~ 0
-P4_03
 Text Label 5250 6650 0    60   ~ 0
 P4_05
 Text Label 5250 6750 0    60   ~ 0
@@ -1850,4 +1846,8 @@ F 3 "" H 3700 2600 50  0000 C CNN
 	1    3700 2600
 	1    0    0    -1  
 $EndComp
+Text Notes 3850 4550 0    60   ~ 0
+P4_19 on pin 66\n
+Text Notes 4000 6600 0    60   ~ 0
+P4_03 for  ice reset\n
 $EndSCHEMATC
