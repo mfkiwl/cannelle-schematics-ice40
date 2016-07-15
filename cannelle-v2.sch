@@ -28,11 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:sst25vf020b
-LIBS:xc6slx9-tqg144
-LIBS:w_microcontrollers
 LIBS:cannelle-v2-cache
-LIBS:Oscillators
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -125,13 +121,13 @@ F 3 "" H 1200 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4650 1100 0    60   ~ 0
-AVR_MISO
+MISO
 Text Label 4650 1200 0    60   ~ 0
-AVR_SCK
+SCK
 Text Label 4650 1300 0    60   ~ 0
 RST_AVR
 Text Label 6050 1200 2    60   ~ 0
-AVR_MOSI
+MOSI
 $Comp
 L GND #PWR02
 U 1 1 5776F3F8
@@ -793,10 +789,6 @@ Wire Wire Line
 	7850 5800 7400 5800
 Wire Wire Line
 	7850 5900 7400 5900
-Wire Wire Line
-	7850 6000 7400 6000
-Wire Wire Line
-	7850 6100 7400 6100
 Text Label 7400 4800 0    60   ~ 0
 FPGA_SS
 Text Label 7400 4900 0    60   ~ 0
@@ -821,10 +813,6 @@ Text Label 7400 5800 0    60   ~ 0
 ADC4
 Text Label 7400 5900 0    60   ~ 0
 ADC5
-Text Label 7400 6000 0    60   ~ 0
-ADC6
-Text Label 7400 6100 0    60   ~ 0
-ADC7
 Text Label 5700 5150 2    60   ~ 0
 ADC0
 Text Label 5700 5250 2    60   ~ 0

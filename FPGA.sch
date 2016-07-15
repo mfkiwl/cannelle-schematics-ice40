@@ -28,11 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:sst25vf020b
-LIBS:xc6slx9-tqg144
-LIBS:w_microcontrollers
 LIBS:cannelle-v2-cache
-LIBS:Oscillators
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
